@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google meet</title>
+        <link rel="icon" type="image/x-icon" href="./icon/google_meet.ico">
+        <meta charset = "utf-8">
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    </head>
+    <body>
+        <section>
+            <div class = "all_people">
+                <div class = "big_person">
+                    <div class = "top">
+                        <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                        <div class = "mute_icon">
+                            <span class="material-icons">mic_off</span>
+                        </div>
+                    </div>
+                    <div class = "name">
+                        <img class = "name_icon" src="./icon/me.png">
+                        <div class = "function">
+                            <button class = "function_pin_slash"><img class = "pin_slash" src = "./icon/pin_slash.png"></button>
+                            <button class = "function_grid_slash"><img class = "grid_slash" src = "./icon/grid_slash.svg"></button>
+                            <button class = "function_arrow"><img class = "arrow" src = "./icon/arrow.png"></button>
+                        </div>
+                    </div>
+                    <div class = "mark">
+                        <span class="material-icons">push_pin</span>
+                        <div class="small_name">你</div>
+                    </div>
+                </div>
+                <div class = "other_people">
+                    <div id = "p0" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/me.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">你</div>
+                        </div>
+                    </div>
+                    <div id = "p1" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/1.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">滬</div>
+                        </div>
+                    </div>
+                    <div id = "p2" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/2.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">投</div>
+                        </div>
+                    </div>
+                    <div id = "p3" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/3.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">梅</div>
+                        </div>
+                    </div>
+                    <div id = "p4" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/4.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">友</div>
+                        </div>
+                    </div>
+                    <div id = "p5" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/5.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">前</div>
+                        </div>
+                    </div>
+                    <div id = "p6" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/coco.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">coco</div>
+                        </div>
+                    </div>
+                    <div id = "p7" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/dog.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">dog</div>
+                        </div>
+                    </div>
+                    <div id = "p8" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/papa.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">papa</div>
+                        </div>
+                    </div>
+                    <div id = "p9" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/pumpkin.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">pumpkin</div>
+                        </div>
+                    </div>
+                    <div id = "p10" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/sophie.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">sophie</div>
+                        </div>
+                    </div>
+                    <div id = "p11" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/wowo.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">wowo</div>
+                        </div>
+                    </div>
+                    <div id = "p12" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/x.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">x</div>
+                        </div>
+                    </div>
+                    <div id = "p13" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/yui.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">yui</div>
+                        </div>
+                    </div>
+                    <div id = "p14" class = "small_people">
+                        <div class = "top">
+                            <button class = "exit"><span class="material-icons-outlined">highlight_off</span></button>
+                            <div class = "mute_icon">
+                                <span class="material-icons">mic_off</span>
+                            </div>
+                        </div>
+                        <div class = "name">
+                            <img class = "name_icon" src="./icon/yuyu.png">
+                            <div class = "function">
+                                <button class = "function_pin" ><span class="material-icons-outlined">push_pin</span></button>
+                                <button class = "function_mute" ><span class="material-icons-outlined">mic_off</span></button>
+                                <button class = "function_ban"><span class="material-icons-outlined">do_not_disturb_on</span></button>
+                            </div>
+                        </div>
+                        <div class = "mark">
+                            <div class="small_name">yuyu</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+        <footer>
+            <div class = "left">
+                凌晨12:43 | Web Programming
+            </div>
+            <div class = "mid">
+                <button class = "mute" title = "開啟麥克風(Ctrl+D)">
+                    <span class="material-icons">mic_off</span>
+                </button>
+                <button class = "camera_slash" title = "開啟攝影機(Ctrl+E)">
+                    <span class="material-icons-outlined">videocam_off</span>
+                </button>
+                <button class = "hand" title = "舉手">
+                    <span class="material-icons-outlined">back_hand</span>
+                </button>
+                <button class = "screen" title = "立即分享螢幕畫面">
+                    <span class="material-icons-outlined">present_to_all</span>
+                </button>
+                <button class = "dots" title = "更多選項">
+                    <span class="material-icons-outlined">more_vert</span>
+                </button>
+                <button class = "phone" title = "退出通話">
+                    <span class="material-icons">call_end</span>
+                </button>
+                <button class = "add">
+                    <span class="material-icons-outlined">add_circle_outline</span>
+                </button>
+            </div>
+            <div class = "right">
+                <button class = "i" title = "會議詳細資料">
+                    <span class="material-icons-outlined">info</span>
+                </button>
+                <button class = "group" title = "顯示所有參與者">
+                    <span class="material-icons-outlined">group</span>
+                </button>
+                <button class = "chat" title = "與所有參與者進行即時通訊">
+                    <span class="material-icons-outlined">chat</span>
+                </button>
+                <button class = "category" title = "活動">
+                    <span class="material-icons-outlined">category</span>
+                </button>
+                <button class = "lock" title = "主辦人控制項">
+                    <span class="material-icons-outlined">lock_person</span>
+                </button>
+            </div>
+        </footer>
+        <script src = "./main.js"></script>
+    </body>
+</html>
